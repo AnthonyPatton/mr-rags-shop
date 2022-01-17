@@ -39,7 +39,7 @@ const ProductDetails = () => {
             <div className="ui vertical divider">AND</div>
             <div className="middle aligned row">
               <div className="column lp">
-                <img className="ui fluid image" src={image} />
+                <img className="ui fluid image" src={image} alt=""/>
               </div>
               <div className="column rp">
                 <h1>{title}</h1>
@@ -58,9 +58,10 @@ const ProductDetails = () => {
             </div>
           </div>
         </div>
-      )}
+      )};
     </div>
   );
 };
+
 
 export default ProductDetails;
